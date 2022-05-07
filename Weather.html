@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OpenWeatherMap Api</title>
+  <link rel="stylesheet" href="weathearstyle.css">
+  <style>
+    body{
+      background-image: url(weather.mp4);
+    }
+  </style>
+</head>
+<body>
+  <!-- <div class="main">
+    <div class="header">
+      <h1>OpenWeatherMap API</h1>
+      <p>Enter any city name in the input box below to get the data</p>
+    </div> -->
+    <div class="menu">
+      <a href="index.html">Home</a>
+
+      <!-- <a href="live-charts.html">Crypto</a> -->
+
+        
+      
+      <a href="sports.html">Sports</a>
+      <a href="Tech.html">Tech</a>
+      <a href="https://boiling-waters-93036.herokuapp.com/">Local Data</a>
+      <!-- <a href="About.html">Contact</a>
+      <a href="About.html">Location</a> -->
+    </div>
+    <div><script type="text/javascript"
+      src="https://studio.alan.app/web/lib/alan_lib.min.js"></script>
+       <script>
+       var alanBtnInstance = alanBtn({
+         key: "9c2e46c8c11c5711ad21ec5f9d9625272e956eca572e1d8b807a3e2338fdd0dc/stage",
+         onCommand: function (commandData) {
+         if (commandData.command === "go:back") {
+           //call client code that will react on the received command
+         }
+         },
+         rootEl: document.getElementById("alan-btn"),
+       });
+       </script></div>
+  
+    <div class="input">
+      <input type="text" placeholder="Enter the city" class="input_text">
+      <input type="submit" value="Submit" class="submit">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <h1 class="name" id="name"></h1>
+      <p class="temp"></p>
+      <p class="clouds"></p>
+      <p class="desc"></p>
+    </div>
+  </div>
+<script src="app.js"></script>
+</body>
+</html>

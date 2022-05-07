@@ -1,0 +1,53 @@
+
+.body{
+    background-color: aqua;
+}
+
+.cont{
+    width: 53%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+   
+    
+
+
+   
+}
+
+.navbar-toggler{
+    
+
+    background-color: black;
+
+    background-attachment: fixed;
+
+    
+}
+.container1{
+    background-color:black;
+}
+
+
+.navbar{
+    
+    background-color: rgba(39,47,84,1);
+
+    background-attachment: fixed;
+}
+
+.badge{
+
+
+
+    background-color: rgba(39,47,84,1);
+
+
+
+
+
+
+
+}

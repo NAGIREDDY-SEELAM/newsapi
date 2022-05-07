@@ -1,0 +1,38 @@
+
+.body{
+    background-color: aqua;
+}
+
+/* .cont{
+    width: 53%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    
+
+   
+} */
+.my-3{
+    border-radius: 50px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  20px 20px 60px #d9d9d9,
+                 -20px -20px 60px #ffffff;
+}
+.accordion {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  20px 20px 60px #d9d9d9,
+                 -20px -20px 60px #ffffff;
+  }
+/* #newsAccordion{
+    border-radius: 50px;
+background: linear-gradient(145deg, #e6e6e6, #ffffff);
+box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+
+} */
